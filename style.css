@@ -1,5 +1,10 @@
 body{
   background-color: #95acee;
+
+}
+.contenedor-flex{
+display: flex;
+flex-wrap: wrap;
 }
 span:hover{
     background-color: #01268b;
@@ -7,8 +12,10 @@ span:hover{
     color: #9e05b3;
 }
 a{
+  
     text-decoration: none;
 }
+
 #div1{
     border-color: #5d0092;
     border-style: solid;
