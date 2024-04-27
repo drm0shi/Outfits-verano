@@ -1,0 +1,62 @@
+body{
+  background-color: #95acee;
+}
+span:hover{
+    background-color: #01268b;
+    transition-duration: 1s;
+    color: #9e05b3;
+}
+a{
+    text-decoration: none;
+}
+#div1{
+    border-color: #5d0092;
+    border-style: solid;
+    border-width: 1px;
+}
+#titu{
+    color: #7f5fb3;
+}
+ul{
+    color: #7a08c5;
+}
+div{
+    width: 900px;
+}
+#Outfit_verano_1:hover{
+    border-width: 10px;
+    background-color: #5d0092;
+    transition-duration: 1s;
+    border-radius: 10px;
+}
+#Outfit_verano_1>img{
+    width: 400px;
+    transition-duration: 3s;
+}
+#img1:hover{
+    width: 400px;
+    transform: scale(1.2) rotate(20deg);
+    transition-duration: 3s;
+}
+#op1{
+    color: rgb(0, 102, 133);
+    font-size: 20px;
+}
+#Outfit_verano_2:hover{
+border-width: 10px;
+background-color: #7f5fb3;
+transition-duration: 1s;
+border-radius: 10px;
+}
+#Outfit_verano_2>img{
+    width: 200px;
+}
+#op2{
+    color: white;
+    font-size: 20px;
+}
+#img2:hover{
+width: 200px;
+transform: scale(1.2) rotate(20deg);
+transition-duration: 3s;
+}
