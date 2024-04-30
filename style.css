@@ -1,5 +1,5 @@
 body{
-  background-color: #95acee;
+  background:linear-gradient(90deg,#080736,#380572);
  
 
 }
@@ -12,22 +12,7 @@ span:hover{
     transition-duration: 1s;
     color: #9e05b3;
 }
-a{
-  
-    text-decoration: none;
-}
 
-#div1{
-    border-color: #5d0092;
-    border-style: solid;
-    border-width: 1px;
-}
-#titu{
-    color: #7f5fb3;
-}
-ul{
-    color: #7a08c5;
-}
 div{
     width: 900px;
 }
@@ -49,6 +34,7 @@ div{
 #op1{
     color: rgb(0, 102, 133);
     font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #Outfit_verano_2:hover{
 border-width: 10px;
@@ -58,13 +44,51 @@ border-radius: 10px;
 }
 #Outfit_verano_2>img{
     width: 200px;
+    transition-duration: 3s;
 }
 #op2{
     color: white;
     font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #img2:hover{
 width: 200px;
 transform: scale(1.2) rotate(20deg);
 transition-duration: 3s;
+}
+#Outfit_verano_3>img{
+    width: 200px;
+    transition-duration: 3s;
+}
+#op3{
+    color: rgb(68, 125, 230);
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#Outfit_verano_3:hover{
+    border-width: 10px;
+    background-color: #3a005c;
+    transition-duration: 1s;
+    border-radius: 20px;
+}
+#img3:hover{
+    width: 200px;
+    transform: scale(1.2) rotate(20deg);
+    transition-duration: 3s;
+}
+#op4{
+    color: coral;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#Outfit_verano_4:hover{
+    border-width: 10px;
+    background-color: #501870;
+    transition-duration: 1s;
+    border-radius: 20px;
+}
+#img4:hover{
+    width: 200px;
+    transform: scale(1.2) rotate(20deg);
+    transition-duration: 3s;
 }
