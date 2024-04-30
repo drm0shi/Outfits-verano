@@ -1,94 +1,99 @@
-body{
-  background:linear-gradient(90deg,#080736,#380572);
- 
-
-}
-.contenedor-flex{
-    display: flex;
+.container {
     flex-wrap: wrap;
 }
-span:hover{
-    background-color: #01268b;
-    transition-duration: 1s;
-    color: #9e05b3;
+
+body {
+    background: linear-gradient(90deg, rgb(1, 0, 53), rgb(0, 0, 0));
 }
 
-div{
-    width: 900px;
+#Menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
 }
-#Outfit_verano_1:hover{
-    border-width: 10px;
-    background-color: #5d0092;
-    transition-duration: 1s;
-    border-radius: 10px;
+
+h1 {
+    color: #775107;
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-#Outfit_verano_1>img{
-    width: 400px;
-    transition-duration: 3s;
+
+ul li {
+    display: inline-block;
+    padding: 0px 20px;
 }
-#img1:hover{
-    width: 400px;
-    transform: scale(1.2) rotate(20deg);
-    transition-duration: 3s;
+
+a {
+    color: rgb(0, 82, 61);
+    text-decoration: none;
+    font-size: 26px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
-#op1{
-    color: rgb(0, 102, 133);
-    font-size: 20px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-#Outfit_verano_2:hover{
-border-width: 10px;
-background-color: #7f5fb3;
-transition-duration: 1s;
-border-radius: 10px;
-}
-#Outfit_verano_2>img{
-    width: 200px;
-    transition-duration: 3s;
-}
-#op2{
-    color: white;
-    font-size: 20px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-#img2:hover{
-width: 200px;
-transform: scale(1.2) rotate(20deg);
-transition-duration: 3s;
-}
-#Outfit_verano_3>img{
-    width: 200px;
-    transition-duration: 3s;
-}
-#op3{
-    color: rgb(68, 125, 230);
-    font-size: 20px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-#Outfit_verano_3:hover{
-    border-width: 10px;
-    background-color: #3a005c;
-    transition-duration: 1s;
-    border-radius: 20px;
-}
-#img3:hover{
-    width: 200px;
-    transform: scale(1.2) rotate(20deg);
-    transition-duration: 3s;
-}
-#op4{
+
+#ver:hover {
     color: coral;
-    font-size: 20px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    animation: transparent infinite alternate;
+    transition: 1.2s;
+    width: 26px;
+    white-space: wrap;
+    overflow: hidden;
+    font-size: 26px;
+    border-right: 3px solid;
+    text-shadow: 0 0 25px rgb(255, 0, 0),
+        0 0 38px rgb(255, 0, 0),
+        0 0 48px rgb(255, 0, 0),
+        0 0 62px rgb(255, 0, 0),
+        0 0 100px rgb(255, 0, 0);
 }
-#Outfit_verano_4:hover{
-    border-width: 10px;
-    background-color: #501870;
-    transition-duration: 1s;
-    border-radius: 20px;
+
+#inv:hover {
+    color: aqua;
+    animation: transparent infinite alternate;
+    transition: 1.2s;
+    width: 26px;
+    white-space: wrap;
+    overflow: hidden;
+    font-size: 26px;
+    border-right: 3px solid;
+    text-shadow: 0 0 25px rgb(0, 255, 191),
+        0 0 38px rgb(0, 255, 191),
+        0 0 48px rgb(0, 255, 191),
+        0 0 62px rgb(0, 255, 191),
+        0 0 100px rgb(0, 255, 191);
 }
-#img4:hover{
-    width: 200px;
-    transform: scale(1.2) rotate(20deg);
-    transition-duration: 3s;
+
+#Oto:hover {
+    color: #623307;
+    animation: transparent infinite alternate;
+    transition: 1.2s;
+    width: 26px;
+    white-space: wrap;
+    overflow: hidden;
+    font-size: 26px;
+    border-right: 3px solid;
+    text-shadow: 0 0 38px #a06c3f,
+        0 0 38px #a06c3f,
+        0 0 48px #a06c3f,
+        0 0 62px #a06c3f,
+        0 0 100px #a06c3f;
+}
+#Prim:hover{
+    color: #EFAFC0;
+    animation: transparent infinite alternate;
+    transition: 1.2s;
+    width: 26px;
+    white-space: wrap;
+    overflow: hidden;
+    font-size: 26px;
+    border-right: 3px solid;
+    text-shadow: 0 0 38px #EE6199,
+        0 0 38px #EE6199,
+        0 0 48px #EE6199,
+        0 0 62px #EE6199,
+        0 0 100px #EE6199;
 }
