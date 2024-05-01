@@ -1,0 +1,99 @@
+.container {
+    flex-wrap: wrap;
+}
+
+body {
+    background: linear-gradient(90deg, rgb(1, 0, 53), rgb(0, 0, 0));
+}
+
+#Menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+}
+
+h1 {
+    color: #775107;
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+a {
+    color: rgb(0, 82, 61);
+    text-decoration: none;
+    font-size: 26px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#ver:hover {
+    color: coral;
+    animation: transparent infinite alternate;
+    transition: 1.2s;
+    width: 26px;
+    white-space: wrap;
+    overflow: hidden;
+    font-size: 26px;
+    border-right: 3px solid;
+    text-shadow: 0 0 25px rgb(255, 0, 0),
+        0 0 38px rgb(255, 0, 0),
+        0 0 48px rgb(255, 0, 0),
+        0 0 62px rgb(255, 0, 0),
+        0 0 100px rgb(255, 0, 0);
+}
+
+#inv:hover {
+    color: aqua;
+    animation: transparent infinite alternate;
+    transition: 1.2s;
+    width: 26px;
+    white-space: wrap;
+    overflow: hidden;
+    font-size: 26px;
+    border-right: 3px solid;
+    text-shadow: 0 0 25px rgb(0, 255, 191),
+        0 0 38px rgb(0, 255, 191),
+        0 0 48px rgb(0, 255, 191),
+        0 0 62px rgb(0, 255, 191),
+        0 0 100px rgb(0, 255, 191);
+}
+
+#Oto:hover {
+    color: #623307;
+    animation: transparent infinite alternate;
+    transition: 1.2s;
+    width: 26px;
+    white-space: wrap;
+    overflow: hidden;
+    font-size: 26px;
+    border-right: 3px solid;
+    text-shadow: 0 0 38px #a06c3f,
+        0 0 38px #a06c3f,
+        0 0 48px #a06c3f,
+        0 0 62px #a06c3f,
+        0 0 100px #a06c3f;
+}
+#Prim:hover{
+    color: #EFAFC0;
+    animation: transparent infinite alternate;
+    transition: 1.2s;
+    width: 26px;
+    white-space: wrap;
+    overflow: hidden;
+    font-size: 26px;
+    border-right: 3px solid;
+    text-shadow: 0 0 38px #EE6199,
+        0 0 38px #EE6199,
+        0 0 48px #EE6199,
+        0 0 62px #EE6199,
+        0 0 100px #EE6199;
+}
