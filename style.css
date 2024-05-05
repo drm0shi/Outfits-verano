@@ -82,7 +82,8 @@ a {
         0 0 62px #a06c3f,
         0 0 100px #a06c3f;
 }
-#Prim:hover{
+
+#Prim:hover {
     color: #EFAFC0;
     animation: transparent infinite alternate;
     transition: 1.2s;
